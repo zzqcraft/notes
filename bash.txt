@@ -1,0 +1,56 @@
+Knowledges:
+/usr/local/opt is the place where all brew packages are placed.
+
+
+ctrl + l: clean the screen except current line
+ctrl + k: clean text starting from current cursor
+ctrl + u: clean text till current cursor
+ctrl + y: yank the text from ctrl + u
+ctrl + xx: switch between current cursor and the start of the line
+ctrl + w: Remove characters on the left, until the beginning of the word
+
+
+cmd + D: split window
+cmd + shift + D: undo split window
+
+Examples:
+
+ - look for an export with name "something"
+ export -p | grep something
+
+ - look for the location of a command
+ type -a cmake
+ which cmake
+
+ - find keyword pattern in files
+grep -r "centos" *
+grep -rnw '/path/to/somewhere/' -e 'pattern'
+grep --include=\*.{c,h} -rnw '/path/to/somewhere/' -e "pattern"
+
+ - find file with certain pattern ('' is important to resolve regex)
+find . -name '*.h'
+
+ - add to path
+echo 'export PATH="/usr/local/opt/icu4c/bin:$PATH"' >> ~/.bash_profile
+
+ - rename file extensions
+find . -name '*.cpp' -exec sh -c 'mv "$0" "${0%.cpp}.cc"' {} \;
+
+ - copy directory tree
+cp -r dirSrc dirDest
+
+ - find process given keyword
+ps aux | grep dotnet
+
+
+ - find the dir size
+du -sh *dir*
+
+ - use ssh to copy from remote
+scp root@192.168.7.137:/root/.ssh/id_rsa.pub ~/zzq
+
+ - find process by name
+ps -A | grep spotlight
+
+ - look for all environment variables
+printenv

@@ -1,0 +1,6 @@
+-fPIC: Position Independent Code
+-lexpat: include library expat
+-fms-extensions: use Microsoft extension which allows anonymous struct members
+-DPLATFORM_UNIX: define macro PLATFORM_UNIX
+PLATFORM_UNIX: a macro to control the formatting of things dictate
+PAL_STDCPP_COMPAT: compatible between windows Platform Adaptation Layer and std

@@ -1,0 +1,17 @@
+git config file: 
+	$HOME/.gitconfig
+
+git exclude file from change:
+	git update-index --assume-unchanged [<file>...]
+
+
+config branch.autosetuprebase
+config --global branch.autosetuprebase never
+config branch.DOTNET-911-3.rebase false
+
+
+merge from master
+git checkout master
+git pull
+git checkout <feature_branch>
+git merge master --no-ff

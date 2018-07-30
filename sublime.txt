@@ -1,0 +1,50 @@
+General:
+cmd + shift + p: package control
+ctrl + `: Console show/hide
+
+Word:
+cmd + D: select word from cursor
+cmd + G: find next word (must use cmd + D to select first)
+cmd + shift + G: find previous word (must use cmd + D to select first)
+
+Line:
+cmd + shift + D: duplicate current line
+cmd + X / ctrl + shift + K: delete current line
+cmd + L: select entire line
+cmd + enter: insert line after
+cmd + shift + enter: insert line before
+cmd + J: join next line
+cmd + [ or ]: indent current line
+cmd + shift + arrow: select all text of this line startfor/endwith cursor
+ctrl + K: delete current line starting from cursor
+cmd + delete: delete current line from start to cursor
+
+Cursor Movement:
+ctrl + alt + arrow: move to next/prev word
+ctrl + m: move to pairing parenthesis
+ctrl + shift + m: select all within pairing parenthesis
+
+Multiple Cursors:
+cmd + shift + L: split into multi line cursor
+cmd + ctrl + G: select all highlighted, just like multi cursors select-all-like-this
+
+cmd + ctrl + A: auto align multi lines
+
+Coding:
+cmd + R: find function in class
+cmd + P: goto anything (like class, file, etc)
+cmd + /: comment out selected parts
+cmd + alt + /: undo comment
+
+cmd + alt + #: split into # windows
+cmd + ,: open preference windows
+
+
+
+
+
+Project:
+change project file: Project->Edit Project
+
+Compare/Diff:
+right click tab -> compare
