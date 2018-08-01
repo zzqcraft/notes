@@ -54,3 +54,7 @@ ps -A | grep spotlight
 
  - look for all environment variables
 printenv
+
+ - ripgrep
+a faster way to grep.
+https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md
