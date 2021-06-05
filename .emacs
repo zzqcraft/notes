@@ -39,6 +39,7 @@
 
 ;; enable emacs edit modes
 (ido-mode t)
+(cua-mode t)
 
 ;; move buffer between different positions
 (load "~/zzq_emacs/buffer-move.el")
