@@ -9,7 +9,7 @@ PROMPT_DIRTRIM=3
 export PS1="\[\e[33m\]\w\[\e[m\]$ "
 
 # alias definitions.
-if [ -f ~/.bahs_aliases ]; then
+if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
