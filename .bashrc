@@ -3,16 +3,16 @@
 alias la='ls -A'
 alias l='ls -CF'
 
-# zzq's personal aliases
-alias md='mkdir'
-alias ll='ls -alF'
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias reload='source ~/.bashrc'
-
-
 # only display the two levels of directory
 PROMPT_DIRTRIM=3
 # display the current directory
 export PS1="\[\e[33m\]\w\[\e[m\]$ "
+
+# alias definitions.
+if [ -f ~/.bahs_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# create tmux session work
+work() { tmux new-session -A 0s ${1:-work}; }
+
