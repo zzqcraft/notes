@@ -1,0 +1,9 @@
+[user]
+	name = Stephen Zhu
+	email = zzqcraft@gmail.com
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	bi = commit
+	ci = commit
