@@ -1,4 +1,24 @@
-cp -r ~/git/notes/zzq_emacs/ ~
-cp ~/git/notes/.emacs ~
-cp ~/git/notes/.bashrc ~
-cp ~/git/notes/.bash_aliases ~
+bin_path=$HOME/bin
+git_note_path=$HOME/git/notes
+
+if [ -d "$bin_path" ]; then
+  echo "Personal bin path $bin_path detected"
+else
+  mkdir ~/bin
+  echo "Personal bin path $bin_path created"
+fi
+
+# Copy config file
+echo "Copying.. config files"
+cp $git_note_path/init_config $bin_path
+cp $git_note_path/backup_config $bin_path
+cp -r $git_note_path/zzq_emacs/ $HOME
+cp $git_note_path/.emacs $HOME
+cp $git_note_path/.bashrc $HOME
+cp $git_note_path/.bash_aliases $HOME
+cp $git_note_path/.gitconfig $HOME
+cp $git_note_path/.tmux.conf $HOME
+
+# Refresh config
+echo "Refresh .bashrc"
+source $HOME/.bashrc

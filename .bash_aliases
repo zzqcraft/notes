@@ -1,5 +1,6 @@
 # zzq's personal alias
 alias md='mkdir'
+alias la='ls -A'
 alias ll='ls -alF'
 alias ..='cd ..'
 alias ...='cd ../..'

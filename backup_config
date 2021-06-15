@@ -1,0 +1,10 @@
+bin_path=$HOME/bin
+git_note_path=$HOME/git/notes
+
+cp $HOME/.bashrc $git_note_path
+cp $HOME/.bash_aliases $git_note_path
+cp $HOME/.tmux.conf $git_note_path
+cp $HOME/.emacs $git_note_path
+cp $HOME/.gitconfig $git_note_path
+cp $bin_path/init_config $git_note_path
+cp $bin_path/backup_config $git_note_path
