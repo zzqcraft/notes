@@ -31,6 +31,9 @@
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-.") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-L") 'mc/edit-lines)
+(global-set-key (kbd "<C-M-up>") 'move-text-up)
+(global-set-key (kbd "<C-M-down>") 'move-text-down)
 
 (load "~/zzq_emacs/buffer_move.el")
 (load "~/zzq_emacs/zzq_test.el")
+(load "~/zzq_emacs/move_text.el")
