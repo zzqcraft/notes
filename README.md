@@ -14,3 +14,4 @@ This is zzq's personal Linux config. This is the common config for all his dev e
 * git.txt: note for how to use git
 * init_config: apply config from this repository to the machine
 * zzq_emacs: zzq specific emacs library
+
