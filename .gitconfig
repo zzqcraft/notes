@@ -7,3 +7,5 @@
 	br = branch
 	bi = commit
 	ci = commit
+[core]
+	editor = emacs
