@@ -34,6 +34,8 @@
 (global-set-key (kbd "<C-M-up>") 'move-text-up)
 (global-set-key (kbd "<C-M-down>") 'move-text-down)
 
-(load "~/zzq_emacs/buffer_move.el")
-(load "~/zzq_emacs/zzq_test.el")
-(load "~/zzq_emacs/move_text.el")
+(load "~/git/notes/zzq_emacs/buffer_move.el")
+(load "~/git/notes/zzq_emacs/zzq_test.el")
+(load "~/git/notes/zzq_emacs/move_text.el")
+
+(setq make-backup-files nil)
