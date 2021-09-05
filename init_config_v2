@@ -8,7 +8,7 @@ else
   echo "Personal bin path $bin_path created"
 fi
 
-# Copy config file
+# Linking config file
 echo "Linking.. config files"
 ln -s $git_note_path/.bash_aliases $HOME/.bash_aliases
 ln -s $git_note_path/.emacs $HOME/.emacs
@@ -19,3 +19,9 @@ ln -s $git_note_path/.tmux.config $HOME/.tmux.config
 # Refresh config
 echo "Refresh .bashrc"
 source $HOME/.bashrc
+
+# install packages
+sudo apt --assume-yes install tmux
+sudo apt --assume-yes install openssh-server
+sudo apt --assume-yes install git
+sudo snap install emacs --classic
