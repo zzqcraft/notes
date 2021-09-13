@@ -38,4 +38,6 @@
 (load "~/git/notes/zzq_emacs/zzq_test.el")
 (load "~/git/notes/zzq_emacs/move_text.el")
 
+
 (setq make-backup-files nil)
+(setq inhibit-startup-screen t)
