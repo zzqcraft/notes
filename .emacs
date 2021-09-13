@@ -38,6 +38,7 @@
 (load "~/git/notes/zzq_emacs/zzq_test.el")
 (load "~/git/notes/zzq_emacs/move_text.el")
 
-
+;; do not generate backup file started with ~
 (setq make-backup-files nil)
+;; do not show welcome message and splash screen
 (setq inhibit-startup-screen t)
