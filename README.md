@@ -6,7 +6,7 @@ This is zzq's personal Linux config. This is the common config for all his dev e
 * .bashrc: not need to explain
 * .emacs: emacs config file
 * .gitconfig: git config file
-* .tmux.config: config for tmux, a terminal multiplexer
+* .tmux.conf: config for tmux, a terminal multiplexer
 * backup_config: apply current config setting to this repository
 * bash.txt: daily used bash commands
 * clang.txt: note for clang compiler
