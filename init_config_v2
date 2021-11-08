@@ -13,7 +13,7 @@ echo "Linking.. config files"
 ln -s $git_note_path/.bash_aliases $HOME/.bash_aliases
 ln -s $git_note_path/.emacs $HOME/.emacs
 ln -s $git_note_path/.gitconfig $HOME/.gitconfig
-ln -s $git_note_path/.tmux.config $HOME/.tmux.config
+ln -s $git_note_path/.tmux.conf $HOME/.tmux.conf
 
 
 # Refresh config
