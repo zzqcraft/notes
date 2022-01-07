@@ -25,6 +25,7 @@ echo "install required packages"
 sudo apt --assume-yes install tmux
 sudo apt --assume-yes install openssh-server
 sudo apt --assume-yes install git
+sudo apt --assume-yes install docker-ce
 sudo snap install emacs --classic
 
 # install emacs packages
