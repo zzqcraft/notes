@@ -21,7 +21,14 @@ echo "Refresh .bashrc"
 source $HOME/.bashrc
 
 # install packages
+echo "install required packages"
 sudo apt --assume-yes install tmux
 sudo apt --assume-yes install openssh-server
 sudo apt --assume-yes install git
 sudo snap install emacs --classic
+
+# install emacs packages
+emacs --eval "(package-install 'multiple-cursors)"
+
+# add tmux config
+echo 'work() { tmux new-session -A -s work; }' >> ~/.bashrc
