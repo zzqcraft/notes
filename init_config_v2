@@ -29,7 +29,7 @@ sudo apt --assume-yes install docker-ce
 sudo snap install emacs --classic
 
 # install emacs packages
-emacs --eval "(package-install 'multiple-cursors)"
+emacs --batch --eval "(package-install 'multiple-cursors)"
 
 # add tmux config
 echo 'work() { tmux new-session -A -s work; }' >> ~/.bashrc
