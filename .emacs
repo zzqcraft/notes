@@ -42,3 +42,8 @@
 (setq make-backup-files nil)
 ;; do not show welcome message and splash screen
 (setq inhibit-startup-screen t)
+
+;; tab to 4 spaces
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
