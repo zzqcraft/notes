@@ -25,7 +25,6 @@ echo "install required packages"
 sudo apt --assume-yes install tmux
 sudo apt --assume-yes install openssh-server
 sudo apt --assume-yes install git
-sudo apt --assume-yes install docker-io
 sudo snap install emacs --classic
 
 # install emacs packages
@@ -33,3 +32,6 @@ emacs --batch --eval "(package-install 'multiple-cursors)"
 
 # add tmux config
 echo 'work() { tmux new-session -A -s work; }' >> ~/.bashrc
+
+#refresh bash setting
+source ~/.bashrc
