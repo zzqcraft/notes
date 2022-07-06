@@ -1,0 +1,4 @@
+# install packages
+echo "install required packages for nodejs"
+sudo apt --assume-yes install node
+sudo apt --assume-yes install npm
