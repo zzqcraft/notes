@@ -1,3 +1,9 @@
+--------------------------------------------------------------------------------
+-- This config is used in Hammerspoon. Please make sure 
+--   Privacy&Security -> Accessibility allows this app to run.
+--------------------------------------------------------------------------------
+
+
 local zzq_config = { }
 local menubarMuteItem = nil
 
