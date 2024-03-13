@@ -20,5 +20,5 @@ cp $git_note_path/.gitconfig $HOME
 cp $git_note_path/.tmux.conf $HOME
 
 # Refresh config
-echo "Refresh .bashrc"
+echo "Refresh .bashrc by running 'source ~/.bashrc'"
 source $HOME/.bashrc
